@@ -1,0 +1,12 @@
+#stadium {
+  width: 250px;
+  height: 250px;
+  background-color: lime;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#player {
+  margin-top: 20px;
+}

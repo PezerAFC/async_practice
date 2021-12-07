@@ -1,0 +1,28 @@
+<!-- // 6. Koristeći se HTML-om, napravite 1 div element s id-em "stadium" sirine 250px i visine 250px i zelene pozadine. Napravite button koji ce biti i horizontalno i vertikalno centralno pozicioniran unutar tog parent div-a i button nek ima tekst Generate player.
+// Ispod "stadium" div-a napravite novi div id-a "player" koji ce bit udaljen 20px od div-a "stadium" i imati tekst "Player".
+// Na klik buttona postavite funkciju koja će dinamički odabrati random igraca iz niza "players" te upisati u napravljeni div element sa id-em "player" tekst u formatu: {ime i prezime igraca} - {klub za koji igra}. - 20 bodova -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Football Players</title>
+</head>
+
+<body>
+    <div id="stadium">
+        <button onClick="generatePlayer()">
+            Generate player
+        </button>
+    </div>
+    <div id="player">
+        Player
+    </div>
+</body>
+
+</html>
